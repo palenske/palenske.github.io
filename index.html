@@ -15,10 +15,11 @@
     h3 {
       font-family: Acme;
       color: teal;
-      font-size: 20px;
+      font-size: 26px;
       font-weight: 500;
       letter-spacing: 0.5px;
       text-decoration:underline;
+      
     }
       p {
         font-family: 'Noto Sans', sans-serif;
@@ -27,8 +28,6 @@
         text-align:justify;   
       }
       div {
-      width: 1100px;
-      margin: 10px;
       font-family: 'Noto Sans', sans-serif;
         font-size: 16px;
         text-indent: 16px;
@@ -50,24 +49,47 @@
       text-shadow:rgb(11, 22, 26) 0.1em 0.1em 0.2em;
       background-color: rgb(231, 111, 81);
     }
-    #infobox{
-      width: 800px;
+    #menu{
+      width:fit-content;
+      margin: 48px 24px auto 10px;
       background-color: rgb(231, 111, 81);
       border: 10px solid rgb(42, 157, 143);
       padding: 5px 15px 5px 15px ;
-      float: ;
+      float:left;
       color: azure;
-      clear:both
+
     }
+    #infobox{
+      width: 68%;
+      margin-top: 140px;
+      margin-left: 165px;
+      margin-bottom: auto;
+      background-color: rgb(231, 111, 81);
+      border: 10px solid rgb(42, 157, 143);
+      padding: 5px 15px 5px 15px ;
+      float: relative;
+      color: azure;
+      }
     #picperfil{
       float: left;
-      position: absolute;
-      margin-left: 10px;
-      border: 5px dashed rgb(231, 111, 81);
-      width: 400px;
-      clear:both;
+      position: relative;
+      margin-left: 60px;
+      margin-top: 40px;
+      margin-right: 5px;
+      margin-bottom: auto;
+      border: 5px dashed rgb(42, 157, 143);
       
-    }
+      width: 360px;      
+      }
+      .floatbox{
+      width:fit-content;
+      margin: 48px 24px auto 10px;
+      background-color: rgb(231, 111, 81);
+      border: 10px solid rgb(42, 157, 143);
+      padding: 5px 15px 5px 15px ;
+      float:left;
+      color: azure;
+      }
     </style>
   </head>
   <body>
@@ -77,21 +99,34 @@
       
       <div id="infobox">
       
-      <h3>Quem sou e de onde eu falo:</h3>
+      <h3>Quem sou e de onde eu falo</h3>
       <em>Olá, meu nome é Vinicius, tenho 27 anos e estou no caminho para ser um <strong>desenvolvedor Web</strong></em>.
       Nasci e moro em Paranaguá, cidade litorânea no Paraná. Um lugar relativamente calmo, abriga um dos maiores portos do Brasil,
       ao qual banha-se com o rio Itiberê e este reflete as construções barrocas deixadas por nosso antepassados que por aqui passaram. uma cultura caiçara, algumas famílias indígenas, manguezal e fandango!
       Me apresento através dessa foto que é o lugar de onde eu escrevo: <em>meu quarto</em>, local de maior produtividade para mim nos últimos meses, e até mesmo antes disso...
       Lugar onde desenvolvo meu conhecimento, aprimoro minhas habilidades e arquiteto os meus planos para alcançar meus objetivos.
       Hoje a <strong>Trybe</strong> é a extensão do meu espaço e convidada especial do meu lar, um curso de programação com um time excelente que, com muita boa vontade e disposição, irão me guiar rumo ao sucesso na carreira em tecnologia, bem como o meu <strong>desenvolvimento pessoal</strong></div>
-    
-      <div>
-      <h3 id="">Sobre minha caminhada:</h3>
+     
+      <div class="floatbox">
+        <h3>Habilidades:</h3>
+        <ul>
+            <li>Aprender a aprender</li>
+            <li>Iniciação à docência</li>
+            <li>Técnico de informática da minha vizinhança</li>
+            <li>Resolução de conflitos</li>
+            <li>Violão/Guitarra</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+      </div>
+
+      <div class="floatbox" style="width: 50%;">
+      <h3>Sobre minha caminhada</h3>
       Antes de conhecer a Trybe, eu estava <strong>focado</strong> em meu Trabalho de Conclusão de Curso (TCC) num curso de licenciatura em <strong>Ciências Sociais</strong>.<br>
       O processo estava de escrita caminhava tranquilo, eu tinha bastante material da minha pesquisa e sabia como deveria ser feito, além disso,
       o conteúdo teórico do curso e o corpo docente da instituição foram extremamente satisfatório em termos de aprendizagem.
       No entanto, o inusitado cenário de 2020 desencadeou mudanças, tantos externas quanto internas, e eu acabei repensando sobre minha carreira profissional
-      após ver um anuncio da Trybe. Ao considerar que tenho background em tecnologia, a oportunidade de voltar a estudar programação em uma modalidade tão
+      após ver um anuncio da <spam style="color: black; font-weight: bold;">Trybe</spam>. Ao considerar que tenho background em tecnologia, a oportunidade de voltar a estudar programação em uma modalidade tão
       desafiadora me chamou muito atenção. E claro, a garantia do sucesso.
       Durante muito tempo eu exercitei o meu olhar, me atentar as diferentes realidades em um mudo real… as diferentes visões de mundos.
       E isso decorre da minha área de estudos: a <strong>Antropologia</strong> (já com o background em programação, automaticamente caindo no estruturalismo #.#),
@@ -99,21 +134,9 @@
       coisas que só o outro pode lhe informar. O contato com a alteridade de outros povos, outras religiões, outras formas de interação e outros “padrões”,
       força o pensamento sobre si mesmo e então você agrega ferramentas de outros para programar o próprio mundo. Nesse rolê eu aprendi que <strong>o mundo nunca esteve pronto</strong>, tudo está aqui por que houve trabalho de nossos ancestrais, e a antropologia me levou a conhecer o sentido humano das palavras <strong>conhecimento</strong> e <strong>respeito</strong>.<br>
       <em>Querer aprender, talvez seja o meu maior valor</em>.</div>
-    <div>
-      <h3 id="habi">Habilidades:</h3>
-      <ul>
-          <li>Aprender a aprender</li>
-          <li>Iniciação à docência</li>
-          <li>Técnico de informática da minha vizinhança</li>
-          <li>Resolução de conflitos</li>
-          <li>Skate</li>
-          <li>Violão/Guitarra</li>
-          <li>HTML</li>
-          <li>CSS</li>
-      </ul>
-    </div>
-    <a href="http://noiseneverends.blogspot.com/" target="_blank"><h2>Um blog que contém uma sonzeira irada para download!</h2></a>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h1>espaço para percorrer o índice</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div id="menu">
+      <a href="http://noiseneverends.blogspot.com/" target="_blank"><h2>Um blog que contém uma sonzeira irada para download!</h2></a>
     <h2>Índice</h2>
     <ol>
       <li><a href="#pic">Foto</li></a>
@@ -122,5 +145,6 @@
       <li><a href="#habi">Habilidades.</li></a>
     </ol>
     </ol>
+  </div>
   </body>
 </html>
