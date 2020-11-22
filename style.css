@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(38, 70, 83);      
+  }
+  h3 {
+    font-family: Acme;
+    color: teal;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration:underline;
+  }
+  .divtext {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    text-indent: 16px;
+    text-align:justify; 
+  }
+  .conteiner{
+    max-width: 1200px;
+    padding: 30px;
+  }
+  .floatbox{
+    width:fit-content;
+    margin: 20px 20px auto 0px;
+    background-color: rgb(244, 162, 97);
+    border: 10px solid rgb(42, 157, 143);
+    padding: 5px 15px 5px 15px ;
+    float:left;
+    clear:inherit;
+    color:black;
+  }
+  .contactpic{
+    width: 90px;
+    border-radius: 50%;
+  }
+  #layout{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    padding: 0px 20px 0px 10px;
+    border: 10px double rgb(42, 157, 143);
+    font-family: Acme;
+    font-size: 100px;
+    font-weight: bold;
+    color:rgb(42, 157, 143);
+    text-align:center;
+    text-shadow:rgb(11, 22, 26) 0.1em 0.1em 0.1em;
+    letter-spacing: 1.5px;          
+    background-color: rgb(244, 162, 97);
+  }
+  #menu {
+    width: fit-content;
+    display: inline-flex;
+    margin: 10px auto auto -53px;
+    float: auto;
+    clear: both;
+    position:relative;
+    font-weight: bold;
+    font-size: large;      
+    border: 5px solid rgb(42, 157, 143);
+    padding: 0px;
+    z-index: 1;          
+  }
+  #ul_menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #li_menu{
+    float: left;
+  }
+  #li_menu a {
+    display:inline-block;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(231, 111, 81);
+    color: rgb(38, 70, 83);
+  }
+  #li_menu a:hover{
+    background-color: rgb(244, 162, 97);
+    color: rgb(42, 157, 143)
+  }
+  #infobox{
+    width: 70%;
+    margin: 5% auto auto 10%;
+    background-color: rgb(231, 111, 81);
+    border: 10px solid rgb(42, 157, 143);
+    padding: 5px 15px 5px 15px ;
+    color: azure;
+    clear: both;
+    float: left;
+    position: relative;
+    z-index: 0;
+  }
+  #picperfil{
+    float: left;
+    position: relative;
+    clear: both;
+    margin: -10% 5px 5px -19%;      
+    border: 5px dashed rgb(42, 157, 143);
+    width: 350px;
+    z-index: 1;      
+  }
+  #contact{
+    width: auto;
+    float: left;
+    position:relative;
+    top: -100px;
+    left: 65%;
+    clear: both;           
+  }
