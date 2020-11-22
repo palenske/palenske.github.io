@@ -9,9 +9,7 @@
     <title>Vinicius Palenske</title>
     <style>
     body {
-      background-color: rgb(38, 70, 83);
-      
-      
+      background-color: rgb(38, 70, 83);      
     }
     h3 {
       font-family: Acme;
@@ -20,19 +18,17 @@
       font-weight: 500;
       letter-spacing: 0.5px;
       text-decoration:underline;
-      
     }
-    ul {
+    #ul_menu{
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       }
-
-    li {
+    #li_menu{
       float: left;
       }
-    li a {
+    #li_menu a {
       display: block;
       padding: 14px 16px;
       text-align: center;
@@ -40,11 +36,11 @@
       background-color: rgb(231, 111, 81);
       color: rgb(38, 70, 83);
     }
-    li a:hover{
+    #li_menu a:hover{
       background-color: rgb(244, 162, 97);
       color: rgb(42, 157, 143)
     }
-    #menu{
+    #menu {
       font-weight: bold;
       width:fit-content;
       margin: auto;
@@ -54,24 +50,13 @@
       float:left     
       position: relative;
       right: 50px;
-      top: 50px;    
+      top: 50px;       
     }
-
-
-
-      p {
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 16px;
-        text-indent: 16px;
-        text-align:justify;   
-      }
-      
     .divtext {
       font-family: 'Noto Sans', sans-serif;
       font-size: 16px;
       text-indent: 16px;
       text-align:justify; 
-        
     }
     #layout{
       width: fit-content;
@@ -88,7 +73,6 @@
       text-shadow:rgb(11, 22, 26) 0.1em 0.1em 0.2em;
       background-color: rgb(244, 162, 97);
     }
-    
     #infobox{
       width: 68%;
       margin-top: 140px;
@@ -110,7 +94,7 @@
       border: 5px dashed rgb(42, 157, 143);
       width: 360px;      
       }
-      .floatbox{
+    .floatbox{
       width:fit-content;
       margin: 48px 24px auto 10px;
       background-color: rgb(244, 162, 97);
@@ -119,39 +103,34 @@
       float:left;
       color:black;
       }
-      .conteiner{
-        max-width: 1200px;
-        padding: 30px;
+    .conteiner{
+      max-width: 1200px;
+       padding: 30px;
       }
     </style>
   </head>
+
   <body>
-    <div id="layout">Vinícius S. Palenske</div>
-    
-    
+    <div id="layout">Vinícius S. Palenske</div>    
     <div class="conteiner">
       <div id="menu">
-      
-      <ul>
-        <li><a href="#pic">Foto</li></a>
-        <li><a href="#sobre">Quem sou eu e de onde falo.</li></a>
-        <li><a href="#cami">Sobre minha caminhada.</li></a>
-        <li><a href="#habi">Habilidades.</li></a>
-      </ul>
-    </div>
-    <img id="picperfil" src="images/fotenha.jpg">
-
+        <ul id="ul_menu">
+          <li id="li_menu"><a href="#pic">Foto</li></a>
+          <li id="li_menu"><a href="#sobre">Quem sou eu e de onde falo.</li></a>
+          <li id="li_menu"><a href="#cami">Sobre minha caminhada.</li></a>
+          <li id="li_menu"><a href="#habi">Habilidades.</li></a>
+        </ul>
+      </div>
+      <img id="picperfil" src="images/fotenha.jpg">
       <div id="infobox" class="divtext">
-      
-      <h3>Quem sou e de onde eu falo</h3>
-      <em>Olá, meu nome é Vinicius, tenho 27 anos e estou no caminho para ser um <strong>desenvolvedor Web</strong></em>.
-      Nasci e moro em Paranaguá, cidade litorânea no Paraná. Um lugar relativamente calmo, abriga um dos maiores portos do Brasil,
-      ao qual banha-se com o rio Itiberê e este reflete as construções barrocas deixadas por nosso antepassados que por aqui passaram. uma cultura caiçara, algumas famílias indígenas, manguezal e fandango!
-      Me apresento através dessa foto que é o lugar de onde eu escrevo: <em>meu quarto</em>, local de maior produtividade para mim nos últimos meses, e até mesmo antes disso...
-      Lugar onde desenvolvo meu conhecimento, aprimoro minhas habilidades e arquiteto os meus planos para alcançar meus objetivos.
-      Hoje a <strong>Trybe</strong> é a extensão do meu espaço e convidada especial do meu lar, um curso de programação com um time excelente que, com muita boa vontade e disposição, irão me guiar rumo ao sucesso na carreira em tecnologia, bem como o meu <strong>desenvolvimento pessoal</strong></div>
-     
-
+        <h3>Quem sou e de onde eu falo</h3>
+        <em>Olá, meu nome é Vinicius, tenho 27 anos e estou no caminho para ser um <strong>desenvolvedor Web</strong></em>.
+        Nasci e moro em Paranaguá, cidade litorânea no Paraná. Um lugar relativamente calmo, abriga um dos maiores portos do Brasil,
+        ao qual banha-se com o rio Itiberê e este reflete as construções barrocas deixadas por nosso antepassados que por aqui passaram. uma cultura caiçara, algumas famílias indígenas, manguezal e fandango!
+        Me apresento através dessa foto que é o lugar de onde eu escrevo: <em>meu quarto</em>, local de maior produtividade para mim nos últimos meses, e até mesmo antes disso...
+        Lugar onde desenvolvo meu conhecimento, aprimoro minhas habilidades e arquiteto os meus planos para alcançar meus objetivos.
+        Hoje a <strong>Trybe</strong> é a extensão do meu espaço e convidada especial do meu lar, um curso de programação com um time excelente que, com muita boa vontade e disposição, irão me guiar rumo ao sucesso na carreira em tecnologia, bem como o meu <strong>desenvolvimento pessoal</strong>
+      </div>
       <div class="floatbox">
         <h3>Habilidades:</h3>
         <ul>
@@ -166,20 +145,19 @@
       </div>
 
       <div class="floatbox" style="width: 50%;">
-      <h3>Sobre minha caminhada</h3>
-      Antes de conhecer a Trybe, eu estava <strong>focado</strong> em meu Trabalho de Conclusão de Curso (TCC) num curso de licenciatura em <strong>Ciências Sociais</strong>.<br>
-      O processo estava de escrita caminhava tranquilo, eu tinha bastante material da minha pesquisa e sabia como deveria ser feito, além disso,
-      o conteúdo teórico do curso e o corpo docente da instituição foram extremamente satisfatório em termos de aprendizagem.
-      No entanto, o inusitado cenário de 2020 desencadeou mudanças, tantos externas quanto internas, e eu acabei repensando sobre minha carreira profissional
-      após ver um anuncio da <spam style="color:rgb(42, 157, 143); font-weight: bold;">Trybe</spam>. Ao considerar que tenho background em tecnologia, a oportunidade de voltar a estudar programação em uma modalidade tão
-      desafiadora me chamou muito atenção. E claro, a garantia do sucesso.
-      Durante muito tempo eu exercitei o meu olhar, me atentar as diferentes realidades em um mudo real… as diferentes visões de mundos.
-      E isso decorre da minha área de estudos: a <strong>Antropologia</strong> (já com o background em programação, automaticamente caindo no estruturalismo #.#),
-      área de conhecimento que estimula o ver, ouvir e escrever (Roberto Cardoso de Oliveira), e isso mostra complexidades que até então não se tem noção,
-      coisas que só o outro pode lhe informar. O contato com a alteridade de outros povos, outras religiões, outras formas de interação e outros “padrões”,
-      força o pensamento sobre si mesmo e então você agrega ferramentas de outros para programar o próprio mundo. Nesse rolê eu aprendi que <strong>o mundo nunca esteve pronto</strong>, tudo está aqui por que houve trabalho de nossos ancestrais, e a antropologia me levou a conhecer o sentido humano das palavras <strong>conhecimento</strong> e <strong>respeito</strong>.<br>
-      <em>Querer aprender, talvez seja o meu maior valor</em>.</div>
-    </div>
+        <h3>Sobre minha caminhada</h3>
+        Antes de conhecer a Trybe, eu estava <strong>focado</strong> em meu Trabalho de Conclusão de Curso (TCC) num curso de licenciatura em <strong>Ciências Sociais</strong>.<br>
+        O processo estava de escrita caminhava tranquilo, eu tinha bastante material da minha pesquisa e sabia como deveria ser feito, além disso,
+        o conteúdo teórico do curso e o corpo docente da instituição foram extremamente satisfatório em termos de aprendizagem.
+        No entanto, o inusitado cenário de 2020 desencadeou mudanças, tantos externas quanto internas, e eu acabei repensando sobre minha carreira profissional
+        após ver um anuncio da <spam style="color:rgb(42, 157, 143); font-weight: bold;">Trybe</spam>. Ao considerar que tenho background em tecnologia, a oportunidade de voltar a estudar programação em uma modalidade tão
+        desafiadora me chamou muito atenção. E claro, a garantia do sucesso.
+        Durante muito tempo eu exercitei o meu olhar, me atentar as diferentes realidades em um mudo real… as diferentes visões de mundos.
+        E isso decorre da minha área de estudos: a <strong>Antropologia</strong> (já com o background em programação, automaticamente caindo no estruturalismo #.#),
+        área de conhecimento que estimula o ver, ouvir e escrever (Roberto Cardoso de Oliveira), e isso mostra complexidades que até então não se tem noção,
+        coisas que só o outro pode lhe informar. O contato com a alteridade de outros povos, outras religiões, outras formas de interação e outros “padrões”, força o pensamento sobre si mesmo e então você agrega ferramentas de outros para programar o próprio mundo. Nesse rolê eu aprendi que <strong>o mundo nunca esteve pronto</strong>, tudo está aqui por que houve trabalho de nossos ancestrais, e a antropologia me levou a conhecer o sentido humano das palavras <strong>conhecimento</strong> e <strong>respeito</strong>.<br>
+        <em>Querer aprender, talvez seja o meu maior valor</em>.</div>
+      </div>
       
     <a href="http://noiseneverends.blogspot.com/" target="_blank"><h2>Um blog que contém uma sonzeira irada para download!</h2></a>
   </body>
