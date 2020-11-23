@@ -154,6 +154,7 @@ h4{
 #contactbox{
     position: relative;
     margin: inherit inherit inherit inherit;
+    padding-bottom: 15px;
   }
 #contact{
     margin: 0px 0px 0px 0px;
