@@ -100,7 +100,7 @@ body {
     float: right;
     position: relative;
     clear: both;
-    margin: -10% -25% 5px 10px;      
+    margin: -10% -25% 10px 15px;      
     border: 5px dashed rgb(42, 157, 143);
     width: 350px;
     z-index: 1;      
