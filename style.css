@@ -12,7 +12,6 @@ body {
   .divtext {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
-    text-indent: 16px;
     text-align:justify; 
   }
   .conteiner{
@@ -20,12 +19,13 @@ body {
     padding: 30px;
   }
   .floatbox{
+    text-align: justify;
     width:fit-content;
     height: fit-content;
-    margin: 20px 20px auto 0px;
+    margin: 5px 20px auto 0px;
     background-color: rgb(244, 162, 97);
     border: 10px solid rgb(42, 157, 143);
-    padding: 5px 15px 5px 15px ;
+    padding: 0px 25px 3px 25px;
     float:left;
     clear: right;
     color:black;
@@ -53,7 +53,7 @@ body {
     width: fit-content;
     min-width: 582.55px;
     height: fit-content;
-    margin: 20px auto auto 70px;
+    margin: 20px auto auto 2%;
     float: left;
     clear: both;
     position: relative;
@@ -85,11 +85,11 @@ body {
     color: rgb(42, 157, 143)
   }
   #infobox{
-    width: 70%;
-    margin: 2% auto auto 0px;
+    width: 74%;
+    margin: 2% auto 20px 0px;
     background-color: rgb(231, 111, 81);
     border: 10px solid rgb(42, 157, 143);
-    padding: 5px 15px 5px 15px ;
+    padding: 0px 20px 10px 25px;
     color: azure;
     clear: both;
     float: left;
@@ -100,7 +100,7 @@ body {
     float: right;
     position: relative;
     clear: both;
-    margin: -10% -25% 10px 15px;      
+    margin: -10% -25% 5px 10px;      
     border: 5px dashed rgb(42, 157, 143);
     width: 350px;
     z-index: 1;      
@@ -113,8 +113,13 @@ body {
     position: relative;
     margin: inherit inherit inherit inherit;
   }
+  .titleinbox{
+    padding: -50px 0px -50px 0px;
+    margin: -15px 0px -15px -10px;
+  }
   h4{
+    font-family: acme;
     margin: 0px;
-    padding: 0px;
-    color: rgb(38, 70, 83);
+    color: teal;
+    text-decoration: underline;
   }
