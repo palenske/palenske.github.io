@@ -1,8 +1,11 @@
+html{
+  scroll-behavior: smooth;
+  }
 body {
     background-color: rgb(38, 70, 83);
     height: 1100px;    
   }
-  h3 {
+h3 {
     font-family: Acme;
     color: rgb(38, 70, 83);
     font-size: 26px;
@@ -10,22 +13,28 @@ body {
     letter-spacing: 0.5px;
     text-decoration:underline;
   }
-  .divtext {
+h4{
+    font-family: acme;
+    margin: 0px;
+    color: teal;
+    text-decoration: underline;
+  }
+.conteiner{
+  max-width: 1200px;
+  max-height: 1200px;
+  padding: 30px;
+  margin: 0px 0px 10px 0px;
+  }
+.divtext {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     text-align:justify; 
   }
-  .conteiner{
-    max-width: 1200px;
-    max-height: 1200px;
-    padding: 30px;
-    margin: 0px 0px 10px 0px;
-  }
-  .floatbox{
+.floatbox{
     text-align: justify;
     width:fit-content;
     height: fit-content;
-    margin: 5px 20px 8px 0px;
+    margin: 0px 33px 33px 0px;
     background-color: rgb(244, 162, 97);
     border: 10px solid rgb(42, 157, 143);
     border-radius: 3px;
@@ -34,11 +43,43 @@ body {
     clear: right;
     color:black;
   }
-  .contactpic{
+.contactpic{
     width: 90px;
     border-radius: 50%;
   }
-  #layout{
+.titleinbox{
+    padding: -50px 0px -50px 0px;
+    margin: -15px 0px -15px -10px;
+  }
+#backtotop a{
+  text-align: center;
+  text-decoration: none;
+  width: 70px;
+  height: 70px;
+  margin: 90px 10px 10px 180px;
+  background-color: rgb(231, 111, 81);
+  border: 10px solid rgb(42, 157, 143);
+  border-radius: 50%;
+  float:left;
+  clear: right;  
+}
+#backtotop h3{
+  margin: 10% 10%;
+  text-decoration: none;
+  padding: 15px 0px 0px 0px;
+}
+#backtotop a:hover{
+  text-decoration: none;
+  background-color: rgb(42, 157, 143);
+  border: 10px solid rgb(231, 111, 81);
+}
+#backtotop a:hover h3{
+  margin: 10% 10%;
+  text-decoration: none;
+  padding: 15px 0px 0px 0px;
+  color: rgb(244, 162, 97);
+}
+#layout{
     width: fit-content;
     height: fit-content;
     position: relative;
@@ -53,11 +94,11 @@ body {
     letter-spacing: 1.5px;          
     background-color: rgb(244, 162, 97);
   }
-  #menu {
+#menu {
     width: fit-content;
     min-width: 582.55px;
     height: fit-content;
-    margin: 20px auto auto 5%;
+    margin: 20px 5% 33px 5%;
     float: left;
     clear: both;
     position: relative;
@@ -67,15 +108,15 @@ body {
     border-radius: 3px;
     z-index: 1;    
   }
-  #ul_menu{
+#ul_menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  #li_menu{
+#li_menu{
     float: left;
   }
-  #li_menu a {
+#li_menu a {
     display:inline-block;
     padding: 10px 12px;
     text-align: center;
@@ -83,14 +124,14 @@ body {
     background-color: rgb(231, 111, 81);
     color: rgb(38, 70, 83);
   }
-  #li_menu a:hover{
+#li_menu a:hover{
     background-color: rgb(244, 162, 97);
     background-size: cover;
     color: rgb(42, 157, 143)
   }
-  #infobox{
+#infobox{
     width: 74%;
-    margin: 2% auto 20px 0px;
+    margin: 2% auto 33px 0px;
     background-color: rgb(231, 111, 81);
     border: 10px solid rgb(42, 157, 143);
     border-radius: 3px;
@@ -101,7 +142,7 @@ body {
     position: relative;
     z-index: 0;
   }
-  #picperfil{
+#picperfil{
     float: right;
     position: relative;
     clear: both;
@@ -110,21 +151,11 @@ body {
     width: 350px;
     z-index: 1;      
   }
-  #contact{
-    margin: 0px 0px 0px 0px;
-    float: right;          
-  }
-  #contactbox{
+#contactbox{
     position: relative;
     margin: inherit inherit inherit inherit;
   }
-  .titleinbox{
-    padding: -50px 0px -50px 0px;
-    margin: -15px 0px -15px -10px;
-  }
-  h4{
-    font-family: acme;
-    margin: 0px;
-    color: teal;
-    text-decoration: underline;
+#contact{
+    margin: 0px 0px 0px 0px;
+    float: right;          
   }
