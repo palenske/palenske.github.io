@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(38, 70, 83);      
+    background-color: rgb(38, 70, 83);
+    height: 1100px;    
   }
   h3 {
     font-family: Acme;
-    color: teal;
+    color: rgb(38, 70, 83);
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -16,7 +17,9 @@ body {
   }
   .conteiner{
     max-width: 1200px;
+    max-height: 1200px;
     padding: 30px;
+    margin: 0px 0px 10px 0px;
   }
   .floatbox{
     text-align: justify;
@@ -25,6 +28,7 @@ body {
     margin: 5px 20px auto 0px;
     background-color: rgb(244, 162, 97);
     border: 10px solid rgb(42, 157, 143);
+    border-radius: 3px;
     padding: 0px 25px 3px 25px;
     float:left;
     clear: right;
@@ -53,7 +57,7 @@ body {
     width: fit-content;
     min-width: 582.55px;
     height: fit-content;
-    margin: 20px auto auto 2%;
+    margin: 20px auto auto 5%;
     float: left;
     clear: both;
     position: relative;
@@ -89,7 +93,8 @@ body {
     margin: 2% auto 20px 0px;
     background-color: rgb(231, 111, 81);
     border: 10px solid rgb(42, 157, 143);
-    padding: 0px 20px 10px 25px;
+    border-radius: 3px;
+    padding: 0px 30px 20px 30px;
     color: azure;
     clear: both;
     float: left;
@@ -100,7 +105,7 @@ body {
     float: right;
     position: relative;
     clear: both;
-    margin: -10% -25% 5px 10px;      
+    margin: -8% -25% 5px 10px;      
     border: 5px dashed rgb(42, 157, 143);
     width: 350px;
     z-index: 1;      
