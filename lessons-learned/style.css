@@ -1,0 +1,283 @@
+html {
+  scroll-behavior: smooth;
+  font-family: Noto sans, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-size: 17.25px;
+}
+
+main {
+  display: inline-block;
+  width: fit-content;
+  max-width: 850px;
+  margin-top: 135px;
+  margin-left: 5px;
+  line-height: 1.3;
+}
+
+.trybe {
+  color: teal;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(158 , 42 , 43);
+}
+
+#titulo {
+  color: rgb(255 , 243 , 176);
+  text-align: center;
+  font-family: Acme, sans-serif;
+  letter-spacing: 1px;
+  font-size: 3em;
+  text-shadow: rgb(11 , 22 , 26) 0.06em 0.1em 0.1em;
+}
+
+#menu {
+  width: fit-content;
+  float: left;
+  clear: both;
+  border-radius: 3px;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: inline-block;
+  margin: 0 0 10px 10px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(255 , 243 , 176);
+  border-radius: 3px;
+  color: rgb(84 , 11 , 14);
+  font-size: 30px;
+  font-family: Acme, sans-serif;
+}
+
+#menu a:hover {
+  background-color: rgb(84 , 11 , 14);
+  background-size: cover;
+  color: rgb(255 , 243 , 176);
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+.sessao {
+  background-color: rgb(224 , 159 , 62);
+  display: inline-block;
+  padding: 5px;
+  margin: 10px 0 10px 10px;
+}
+
+.artigo {
+  background-color: rgb(255 , 243 , 176);
+  width: fit-content;
+  border: 5px solid rgb(224 , 159 , 62);
+  margin: 5px 10px 1px;
+  padding: 5px;
+}
+
+.artigo h2 {
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(84 , 11 , 14);
+}
+
+#minha_foto {
+  display: inline-block;
+  width: 211px;
+  border: 15px ridge rgb(224 , 159 , 62);
+  vertical-align: top;
+  margin: 20px 10px 0;
+}
+
+#sobremim {
+  width: fit-content;
+  padding-left: 20px;
+  color: rgb(84 , 11 , 14);
+  margin: -20px 0 5px;
+  font-family: sans-serif;
+}
+
+#sobremim h2 {
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(84 , 11 , 14);
+  margin-top: -25px;
+}
+
+#sobremim p {
+  font-size: 20px;
+  text-indent: 30px;
+}
+
+#caixa_licoes {
+  display: inline-block;
+  background-color: rgb(255 , 243 , 176);
+  border: 3px dashed rgb(224 , 159 , 62);
+  width: fit-content;
+  vertical-align: top;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+#caixa_licoes h2 {
+  background-color: rgb(224 , 159 , 62);
+  text-align: center;
+  padding-top: 5px;
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(255 , 243 , 176);
+}
+
+#licoes_aprendidas {
+  width: 250px;
+  padding: 10px 0 5px 35px;
+  color: rgb(158 , 42 , 43);
+  font-family: Noto sans, sans-serif;
+}
+
+#licoes_aprendidas h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(84 , 11 , 14);
+}
+
+#licoes_a_aprender {
+  width: 250px;
+  padding: 10px 0 5px 35px;
+  color: rgb(84 , 11 , 14);
+  font-family: Noto sans, sans-serif;
+}
+
+#licoes_a_aprender h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(158 , 42 , 43);
+}
+
+#texto-principal {
+  width: 815px;
+}
+
+#texto-principal p {
+  text-indent: 30px;
+  font-family: Noto Sans, sans-serif;
+  text-align: justify;
+}
+
+#canto {
+  background-color: rgb(224 , 159 , 62);
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+  margin: 135px 3px 10px 7px;
+  width: fit-content;
+  height: fit-content;
+  max-width: 460px;
+}
+
+#canto h2 {
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(84 , 11 , 14);
+}
+
+#canto p {
+  font-family: Noto Sans, sans-serif;
+  text-indent: 30px;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+#tabela {
+  background-color: rgb(158 , 42 , 43);
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  width: fit-content;
+  font-family: Noto Sans, sans-serif;
+}
+
+#tabela h3 {
+  color: rgb(255 , 243 , 176);
+  text-align: center;
+  font-family: Acme, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  padding: 5px;
+}
+
+.dificuldade_skills {
+  width: 450px;
+}
+
+.dificuldade_skills th {
+  background-color: rgb(255 , 243 , 176);
+  width: 10px;
+  padding: 10px;
+  border: 1px solid rgb(224 , 159 , 62);
+}
+
+.tdline {
+  border: 1px solid rgb(224 , 159 , 62);
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.tdheader {
+  background-color: rgb(255 , 243 , 176);
+  padding: 10px;
+  border: 1px solid rgb(224 , 159 , 62);
+  font-weight: 600;
+  font-size: medium;
+}
+
+#rodape {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  background-color: rgb(84 , 11 , 14);
+  text-align: center;
+  padding: 15px;
+  color: rgb(255 , 243 , 176);
+  font-family: Noto sans, sans-serif;
+}
+
+#rodape p {
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.contactpic {
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
