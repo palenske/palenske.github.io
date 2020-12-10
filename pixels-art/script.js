@@ -108,7 +108,7 @@ function redefineSize() {
 }
 
 window.onload = function () {
-  paletteGenerator(4);
+  paletteGenerator(5);
   generateFrames(5);
 };
 selectColor();
