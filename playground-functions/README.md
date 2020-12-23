@@ -192,14 +192,4 @@ String retornada:
 
 ---
 
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-09`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-### REVISANDO UM PULL REQUEST
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
 #VQV 🚀
