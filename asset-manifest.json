@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.780668dd.chunk.css",
-    "main.js": "/static/js/main.221874b4.chunk.js",
-    "main.js.map": "/static/js/main.221874b4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.46762b50.js",
-    "runtime-main.js.map": "/static/js/runtime-main.46762b50.js.map",
-    "static/js/2.625daf79.chunk.js": "/static/js/2.625daf79.chunk.js",
-    "static/js/2.625daf79.chunk.js.map": "/static/js/2.625daf79.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.780668dd.chunk.css.map": "/static/css/main.780668dd.chunk.css.map",
-    "static/js/2.625daf79.chunk.js.LICENSE.txt": "/static/js/2.625daf79.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/wolf.fd6f1b7e.png"
+    "main.css": "/klosebox/static/css/main.795ba4d2.chunk.css",
+    "main.js": "/klosebox/static/js/main.f452402b.chunk.js",
+    "main.js.map": "/klosebox/static/js/main.f452402b.chunk.js.map",
+    "runtime-main.js": "/klosebox/static/js/runtime-main.4174d3b1.js",
+    "runtime-main.js.map": "/klosebox/static/js/runtime-main.4174d3b1.js.map",
+    "static/js/2.625daf79.chunk.js": "/klosebox/static/js/2.625daf79.chunk.js",
+    "static/js/2.625daf79.chunk.js.map": "/klosebox/static/js/2.625daf79.chunk.js.map",
+    "index.html": "/klosebox/index.html",
+    "static/css/main.795ba4d2.chunk.css.map": "/klosebox/static/css/main.795ba4d2.chunk.css.map",
+    "static/js/2.625daf79.chunk.js.LICENSE.txt": "/klosebox/static/js/2.625daf79.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/klosebox/static/media/wolf.fd6f1b7e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.46762b50.js",
+    "static/js/runtime-main.4174d3b1.js",
     "static/js/2.625daf79.chunk.js",
-    "static/css/main.780668dd.chunk.css",
-    "static/js/main.221874b4.chunk.js"
+    "static/css/main.795ba4d2.chunk.css",
+    "static/js/main.f452402b.chunk.js"
   ]
 }
