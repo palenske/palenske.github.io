@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/klose-box" component={ MainPage } />
+        <Route exact path="/" component={ MainPage } />
       </Switch>
     </BrowserRouter>
   )
