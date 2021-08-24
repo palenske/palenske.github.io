@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.780668dd.chunk.css",
-    "main.js": "/static/js/main.bff8aedf.chunk.js",
-    "main.js.map": "/static/js/main.bff8aedf.chunk.js.map",
+    "main.js": "/static/js/main.dd94d771.chunk.js",
+    "main.js.map": "/static/js/main.dd94d771.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.46762b50.js",
     "runtime-main.js.map": "/static/js/runtime-main.46762b50.js.map",
-    "static/js/2.625daf79.chunk.js": "/static/js/2.625daf79.chunk.js",
-    "static/js/2.625daf79.chunk.js.map": "/static/js/2.625daf79.chunk.js.map",
+    "static/js/2.0644fb48.chunk.js": "/static/js/2.0644fb48.chunk.js",
+    "static/js/2.0644fb48.chunk.js.map": "/static/js/2.0644fb48.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.780668dd.chunk.css.map": "/static/css/main.780668dd.chunk.css.map",
-    "static/js/2.625daf79.chunk.js.LICENSE.txt": "/static/js/2.625daf79.chunk.js.LICENSE.txt",
+    "static/js/2.0644fb48.chunk.js.LICENSE.txt": "/static/js/2.0644fb48.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/wolf.fd6f1b7e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.46762b50.js",
-    "static/js/2.625daf79.chunk.js",
+    "static/js/2.0644fb48.chunk.js",
     "static/css/main.780668dd.chunk.css",
-    "static/js/main.bff8aedf.chunk.js"
+    "static/js/main.dd94d771.chunk.js"
   ]
 }
