@@ -1,6 +1,8 @@
 # Klose-Box
 Uma maneira fácil de organizar e calcular o dinheiro contido em caixa no final do expediente.
 
+[link da aplicação](https://palenske.github.io/)
+
 ## Funcionamento
 O usuário informa a quantidade de moedas/cédulas nos campos de seus respectivos valores e a aplicação retorna o valor total contido no caixa.
 
